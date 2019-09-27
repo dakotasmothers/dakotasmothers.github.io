@@ -4,7 +4,7 @@ html, body, header, #intro {
 }
 
 #intro {
-    background: url("../CaveCountryTrails/assets/CaveCountryHomePage.jpg");
+    background: url("../assets/CaveCountryHomePage.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,7 +101,7 @@ html, body, header, #intro {
 
 /* -----About Page------ */
 #AboutHeader{
-    background: url("../CaveCountryTrails/assets/Trail.jpg")
+    background: url("../assets/Trail.jpg")
     no-repeat center center fixed;
     background-size: cover;
 }
@@ -128,7 +128,7 @@ html, body, header, #intro {
 /*------Hiking Page-----*/
 
 #hikingHeader{
-    background: url("../CaveCountryTrails/assets/trails_images.jpg");
+    background: url("../assets/trails_images.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -195,7 +195,7 @@ html, body, header, #intro {
 /*------Cycling Page-----*/
 
 #cyclingHeader{
-    background: url("assets/BikeInWoods.png");
+    background: url("../assets/BikeInWoods.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -209,7 +209,7 @@ html, body, header, #intro {
 
 /*----Paddling Page----*/
 #paddlingHeader{
-    background: url("assets/PaddlingPage.png");
+    background: url("../assets/PaddlingPage.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 65%;
