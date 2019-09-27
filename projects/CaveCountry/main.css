@@ -1,0 +1,224 @@
+html, body, header, #intro {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#intro {
+    background: url("../CaveCountryTrails/assets/CaveCountryHomePage.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.view{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.HeaderPhoto{
+    margin-top: 90px;
+    width: 300px;
+    height: 250px;
+}
+.photoContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#about{
+    text-align: left;
+    font-size: 50px;
+    padding-left: 80px;
+    padding-bottom: 50px;
+    width: 35%;
+}
+
+.aboutText{
+    color: white;
+
+}
+
+#about:hover{
+   animation-name: aboutTransform;
+   animation-duration: 2s;
+   animation-fill-mode: forwards;
+}
+
+@keyframes aboutTransform{
+    0% {
+        transform: scale(1.1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+#SubCategories, #SubCategories2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.HikingPhoto, .HorsePhoto, .CyclingPhoto, .PaddlingPhoto{
+    width: 400px;
+    height: 450px;
+    border-radius: 10%;
+    margin: 50px 100px;
+}
+.HikingPhoto:hover, .HorsePhoto:hover, .CyclingPhoto:hover, .PaddlingPhoto:hover{
+    border-style: solid;
+    border-color: darkgray;
+    transform: scale(1);
+}
+#hiking, #Cycling, #HorseBackRiding, #Paddling {
+    position: relative;
+    display: inline-block;
+}
+.hikingText, .cyclingText, .horsebackText, .paddlingText{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    top: 10%; 
+    text-align: center;
+    width: 60%;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color:black;  
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
+}
+
+/* -----About Page------ */
+#AboutHeader{
+    background: url("../CaveCountryTrails/assets/Trail.jpg")
+    no-repeat center center fixed;
+    background-size: cover;
+}
+#HomeLink{
+    color: white;
+    font-size: 25px;
+}
+
+#descriptionAboutUs{
+    padding-top: 200px;
+    margin-left: 60%;
+    margin-right: 5%;
+}
+.descriptionText{
+    text-align: right;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 0);
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+
+}
+
+/*------Hiking Page-----*/
+
+#hikingHeader{
+    background: url("../CaveCountryTrails/assets/trails_images.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+}
+.hikingNavBar, .aboutNavBar, .cyclingNavBar{
+    display: flex;
+    flex-direction: row;
+    color: yellow;
+    background-color: brown;
+    font-size: 30px;
+    font-family: "Playfair display", sans-serif;
+
+}
+.hikingNavBarText, .aboutNavBarText, .cyclingNavBarText{
+    color: yellow;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; 
+}
+
+#homeLink{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#hikingPageText{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;  
+    color: yellow;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Playfair display", sans-serif;
+}
+
+#homeText, .cyclingText, #cyclingPageText, #paddlingPageText {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;  
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Playfair display", sans-serif;
+}
+
+#homeLink:hover{
+    transform: scale(1.1);
+}
+
+#hikingPageText, #cyclingPageText{
+    text-align: right;
+    margin-top: 15%;
+    margin-left: 60%;
+    margin-right: 5%;
+}
+
+.MammothCaveTrails, .BarrenRiverLake, .NolinLake{
+    width: 70%;
+    height: 700px;
+}
+.downloadLink{
+    margin-top: 10px;
+    display: block;
+}
+
+/*------Cycling Page-----*/
+
+#cyclingHeader{
+    background: url("assets/BikeInWoods.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+#gpxFiles{
+    font-size: 25px;
+    color: brown;
+    font-weight: 100;
+}
+
+/*----Paddling Page----*/
+#paddlingHeader{
+    background: url("assets/PaddlingPage.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 65%;
+
+}
+
+#paddlingPageText{
+    text-align: right;
+    margin-top: 15%;
+    margin-left: 70%;
+    margin-right: 5%;
+}

@@ -1,0 +1,40 @@
+body{
+    background: url("assets/Egypt.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.keys{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: 25% 0;
+    display: flex;
+    justify-content: center;
+}
+kbd{
+    display: block;
+    font-size: 4rem;
+}
+.key{
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+    display: block;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: yellow;
+    box-shadow: 0 0 10px yellow;
+}
+
