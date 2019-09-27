@@ -4,37 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>TipCalculator</title>
-    <link rel="stylesheet" href="../css/main.css">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/toDoList.css">
+    <link href="https://fonts.googleapis.com/css?family=Turret+Road&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="container">
-        <h1>TIP CALCULATOR</h1>
 
-        <div>
-            <form>
-                <p>How much was your bill?</p>
-                    <input id="billAmt" type="text" placeholder="$0.00">
-                <p>How was your service?</p>
-                    <select id="serviceQuality">
-                        <option value= 0 selected disabled>-- Choose an Option --</option>
-                        <option value="0.3">30% - Outstanding!</option>
-                        <option value="0.2">20% - Good</option>
-                        <option value="0.15">15% - Ok</option>
-                        <option value="0.10">10% - Bad</option>
-                        <option value=" 0.05">5% - Terrible!</option>
-                    </select>
-                <p>How many people are sharing the bill?</p>
-                    <input id="people" type="text" placeholder="Number of People">
-                <button type="button" id="calculateTip">Calculate!</button>
-            </form>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>My To-Do List</h1>
+            </div>
         </div>
-        <div id="tipAmount" style="display: none">
-            <sup>$</sup><span id="tip">0.00</span>
+
+        <div class="row">
+            <div class="col-12">
+                <p id="instruction1">Enter what you need to do into the input field and hit submit to add items to your list.</p>
+                <p id="instruction2">Click the item to mark it as complete</p>
+                <p id="instruction3">Click the "X" to remove the item from your to-do-list.</p>
+            </div>
         </div>
+
+        <div class="row">
+            <div class="col-12">
+                <input id="userInput" type="text" placeholder="What do you need to do?" maxlength="30">
+                <button id="submit">Submit</button>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <ul></ul>
+            </div>
+
+
+        </div>
+
     </div>
 
 
-    <script type="text/javascript" src="../javascript/scripts.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/toDoList.js"></script>
 </body>
 </html>
