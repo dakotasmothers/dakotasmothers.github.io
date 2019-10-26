@@ -46,6 +46,23 @@ function getWeatherInfo(latitude, longitude, city, state) {
         templateHTML = templateHTML.replace("@@precipitation@@", (precipitation));
         templateHTML = templateHTML.replace("@@currentConditions@@", currentConditions);
         templateHTML = templateHTML.replace("@@imageURL@@", getBackgroundPath(weatherIcon));
+
+        for (var i = 0; i < 5; i++){
+            //Set the date for each day
+            if (i > 0) {
+                let date = new Date();
+                date.setDate(date.getDate() + i);
+
+                let month = date.getMonth() + 1;
+                let day = date.getDate();
+
+                templateHTML = templateHTML.replace("@@date" + i + "@@", month + "/" + day);
+            }
+            let currentDayWeatherData = data.daily.data[i];
+            templateHTML = templateHTML.replace("@@max" + i + "@@", Math.round(currentDayWeatherData.temperatureMax));
+            templateHTML = templateHTML.replace("@@low" + i + "@@", Math.round(currentDayWeatherData.temperatureMin));
+            templateHTML = templateHTML.replace("@@precip" + i + "@@", Math.round(currentDayWeatherData.precipProbability * 100));
+                }
         //Add the configured template HTML to our row in the card
         $(".row").append(templateHTML);
 
