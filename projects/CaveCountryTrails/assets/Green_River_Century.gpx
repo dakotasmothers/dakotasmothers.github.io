@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Green River Century</name>
+    <link href="https://ridewithgps.com/routes/16152569">
+      <text>Green River Century</text>
+    </link>
+    <time>2016-08-26T20:52:51Z</time>
+  </metadata>
+  <rte>
+    <name>Green River Century</name>
+    <rtept lat="37.34299" lon="-85.34697">
+      <name>Start</name>
+      <cmt>Start of route</cmt>
+    </rtept>
+    <rtept lat="37.32051" lon="-85.35746">
+      <name>Straight</name>
+      <cmt>Continue onto Old Columbia Rd</cmt>
+    </rtept>
+    <rtept lat="37.2881" lon="-85.36841">
+      <name>Left</name>
+      <cmt>Turn left onto Lone Valley Rd</cmt>
+    </rtept>
+    <rtept lat="37.26101" lon="-85.34806">
+      <name>Straight</name>
+      <cmt>Continue straight onto Pikes Ridge Rd</cmt>
+    </rtept>
+    <rtept lat="37.23254" lon="-85.34342">
+      <name>Left</name>
+      <cmt>Turn left onto KY-55 S/New Columbia Rd</cmt>
+    </rtept>
+    <rtept lat="37.19918" lon="-85.33266">
+      <name>Left</name>
+      <cmt>Turn left onto Cane Valley Rd/Old Ky 55 Loop No 2 Rd</cmt>
+    </rtept>
+    <rtept lat="37.19757" lon="-85.32591">
+      <name>Left</name>
+      <cmt>Turn left onto Kellyville Rd</cmt>
+    </rtept>
+    <rtept lat="37.2057" lon="-85.31379">
+      <name>Right</name>
+      <cmt>Turn right onto Mt Carmel Rd</cmt>
+    </rtept>
+    <rtept lat="37.17609" lon="-85.28397">
+      <name>Left</name>
+      <cmt>Turn left onto Holmes Bend Rd</cmt>
+    </rtept>
+    <rtept lat="37.19142" lon="-85.2714399">
+      <name>Right</name>
+      <cmt>Turn right onto W Egypt Rd</cmt>
+    </rtept>
+    <rtept lat="37.18199" lon="-85.25638">
+      <name>Left</name>
+      <cmt>Turn left onto Knifley Rd</cmt>
+    </rtept>
+    <rtept lat="37.2405199" lon="-85.18916">
+      <name>Left</name>
+      <cmt>Turn left onto Elkhorn Rd</cmt>
+    </rtept>
+    <rtept lat="37.2615399" lon="-85.19529">
+      <name>Right</name>
+      <cmt>Turn right onto Eastridge Cemetery Rd</cmt>
+    </rtept>
+    <rtept lat="37.28095" lon="-85.1899799">
+      <name>Left</name>
+      <cmt>Turn left onto Roley-Yuma Rd</cmt>
+    </rtept>
+    <rtept lat="37.2813" lon="-85.1908">
+      <name>Right</name>
+      <cmt>Turn right onto Eastridge Cemetery Rd</cmt>
+    </rtept>
+    <rtept lat="37.38097" lon="-85.133">
+      <name>Straight</name>
+      <cmt>Continue onto Raikes Hill Rd</cmt>
+    </rtept>
+    <rtept lat="37.41092" lon="-85.12993">
+      <name>Left</name>
+      <cmt>Keep left to stay on Raikes Hill Rd</cmt>
+    </rtept>
+    <rtept lat="37.41223" lon="-85.13022">
+      <name>Left</name>
+      <cmt>Turn left onto Merrimac Rd</cmt>
+    </rtept>
+    <rtept lat="37.41708" lon="-85.1677599">
+      <name>Left</name>
+      <cmt>Turn left onto State Hwy 337</cmt>
+    </rtept>
+    <rtept lat="37.37865" lon="-85.19403">
+      <name>Right</name>
+      <cmt>Turn right onto State Hwy 744</cmt>
+    </rtept>
+    <rtept lat="37.40082" lon="-85.2128099">
+      <name>Right</name>
+      <cmt>Turn right onto Girard Ln</cmt>
+    </rtept>
+    <rtept lat="37.40082" lon="-85.2128099">
+      <name>Right</name>
+      <cmt>Turn right onto State Hwy 744</cmt>
+    </rtept>
+    <rtept lat="37.41247" lon="-85.28213">
+      <name>Right</name>
+      <cmt>Turn right onto State Hwy 208</cmt>
+    </rtept>
+    <rtept lat="37.42982" lon="-85.27649">
+      <name>Left</name>
+      <cmt>Turn left onto Minnie Brown Rd</cmt>
+    </rtept>
+    <rtept lat="37.42907" lon="-85.28191">
+      <name>Straight</name>
+      <cmt>Continue onto E Finley Ridge Rd</cmt>
+    </rtept>
+    <rtept lat="37.44784" lon="-85.32152">
+      <name>Right</name>
+      <cmt>Turn right onto State Hwy 634/Finley Ridge Rd</cmt>
+    </rtept>
+    <rtept lat="37.462" lon="-85.3384">
+      <name>Right</name>
+      <cmt>Turn right onto State Hwy 289</cmt>
+    </rtept>
+    <rtept lat="37.48088" lon="-85.32625">
+      <name>Left</name>
+      <cmt>Turn left onto State Hwy 412</cmt>
+    </rtept>
+    <rtept lat="37.54412" lon="-85.37466">
+      <name>Left</name>
+      <cmt>Turn left onto Sallie Ray Pike</cmt>
+    </rtept>
+    <rtept lat="37.55224" lon="-85.39581">
+      <name>Right</name>
+      <cmt>Turn right onto Sallie Ray Pike Rd</cmt>
+    </rtept>
+    <rtept lat="37.56014" lon="-85.39475">
+      <name>Left</name>
+      <cmt>Turn left onto KY-84 W</cmt>
+    </rtept>
+    <rtept lat="37.55992" lon="-85.43122">
+      <name>Straight</name>
+      <cmt>Continue onto State Hwy 527/Main St/Scott Ridge Rd</cmt>
+    </rtept>
+    <rtept lat="37.47749" lon="-85.44303">
+      <name>Straight</name>
+      <cmt>Continue onto State Hwy 527</cmt>
+    </rtept>
+    <rtept lat="37.4111" lon="-85.39603">
+      <name>Right</name>
+      <cmt>Turn right onto State Hwy 744</cmt>
+    </rtept>
+    <rtept lat="37.38646" lon="-85.41999">
+      <name>Straight</name>
+      <cmt>Continue onto Fallen Timber Rd</cmt>
+    </rtept>
+    <rtept lat="37.37017" lon="-85.44524">
+      <name>Left</name>
+      <cmt>Turn left onto Fallen Timber Rd/Locust Rd</cmt>
+    </rtept>
+    <rtept lat="37.35819" lon="-85.44">
+      <name>Left</name>
+      <cmt>Turn left onto State Hwy 323</cmt>
+    </rtept>
+    <rtept lat="37.33396" lon="-85.37534">
+      <name>Straight</name>
+      <cmt>Continue onto W Main St</cmt>
+    </rtept>
+    <rtept lat="37.34051" lon="-85.34508">
+      <name>Left</name>
+      <cmt>Turn left onto N Columbia Ave</cmt>
+    </rtept>
+    <rtept lat="37.342413" lon="-85.347604">
+      <name>End</name>
+      <cmt>End of route</cmt>
+    </rtept>
+  </rte>
+</gpx>
